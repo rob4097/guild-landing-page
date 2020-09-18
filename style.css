@@ -1,48 +1,75 @@
+/* Global things */
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-nav img {
-    width: 32px;
-    height: 32px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
+/* logo at the top */
 svg {
     max-height: 256px;
     width: 100%;
 }
 
-header {
-    display: block;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-h1, h2, i, nav { width: 100%; text-align: center; }
-header div { width: 100%; display: flex; justify-content: center; }
-
-
+/* guild name - just below the logo */
 h1 { 
     color: #393e46; 
     font-family: 'Caesar Dressing', cursive; 
     font-size: 4.2rem;
     margin: 0;
+    margin-top: -40px;
+}
+
+/* Nav icons - external links */
+header div { 
+    display: flex; 
+    justify-content: center; 
 }
 
 nav {
     margin: 20px;
     background-color: #C4A859;
-    width: max-content;
     border-radius: 25px;
     padding: 10px;
     padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav img {
+    width: 32px;
+    height: 32px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 nav a img:hover {
     transform: scale(1.1)
 }
+
+/* Apply now button */
+.button {
+    background-color: #487DC3;
+    border: 0;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:active {
+    background-color: #487DC3;
+}
+
+.button:hover {
+    background-color: #25539B;
+}
+
+/* CATEGORIZE ME */
+h1, h2, i { width: 100%; text-align: center; }
+
 
 h2 { color: #EBE8C2; margin: 0; font-family: 'Caesar Dressing', cursive; font-size: 2rem;  }
 
@@ -72,28 +99,6 @@ h2 { color: #EBE8C2; margin: 0; font-family: 'Caesar Dressing', cursive; font-si
     color: white;
 }
 
-.button {
-    background-color: #487DC3;
-    border: 0;
-    border-radius: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    display: block;
-    width: 100%;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-}
-
-.button:active {
-    background-color: #487DC3;
-}
-
-.button:hover {
-    background-color: #25539B;
-}
-
 .centered-text {
     text-align: center;
 }
-
