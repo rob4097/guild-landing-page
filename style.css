@@ -1,6 +1,7 @@
 /* Global things */
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 /* logo at the top */
@@ -74,14 +75,12 @@ nav a img:hover {
 }
 
 .half {    
-    max-width: 500px;
-    min-width: 500px;
+    width: 500px;
     margin: 20px;
 }
 
 .full {
     max-width: 1080px;
-    min-width: 500px;
     margin: 20px;
 }
 
@@ -90,6 +89,10 @@ nav a img:hover {
     background-color: #393E46;
     padding: 20px;
     color: white;
+}
+
+@media (max-width: 1160px) {
+    .full, .half { width: 80%; }
 }
 
 /* Box headers */
