@@ -12,14 +12,13 @@ svg {
 /* guild name - just below the logo */
 h1 { 
     color: #393e46; 
-    font-family: 'Caesar Dressing', cursive; 
     font-size: 4.2rem;
     margin: 0;
     margin-top: -40px;
 }
 
 /* Nav icons - external links */
-header div { 
+.centered-wrapper { 
     display: flex; 
     justify-content: center; 
 }
@@ -67,12 +66,7 @@ nav a img:hover {
     background-color: #25539B;
 }
 
-/* CATEGORIZE ME */
-h1, h2, i { width: 100%; text-align: center; }
-
-
-h2 { color: #EBE8C2; margin: 0; font-family: 'Caesar Dressing', cursive; font-size: 2rem;  }
-
+/* Boxen and layout */
 .sidebyside {
     display: flex;
     flex-wrap: wrap;
@@ -95,10 +89,25 @@ h2 { color: #EBE8C2; margin: 0; font-family: 'Caesar Dressing', cursive; font-si
     box-shadow: 10px 10px 25px 0 rgba(69, 82, 115, 1);
     background-color: #393E46;
     padding: 20px;
-
     color: white;
 }
+
+/* Box headers */
+h2 { color: #EBE8C2; 
+    margin: 0; 
+    font-size: 2rem; 
+}
+
+/* CATEGORIZE ME */
+h1, h2, i { width: 100%; text-align: center; }
 
 .centered-text {
     text-align: center;
 }
+
+p, li {
+    line-height: 1.75em;
+    letter-spacing: 0.05em;
+}
+
+h1, h2 { font-family: 'Caesar Dressing', cursive;  }
