@@ -80,7 +80,7 @@ nav a img:hover {
 }
 
 .full {
-    max-width: 1080px;
+    width: 1080px;
     margin: 20px;
 }
 
@@ -91,7 +91,7 @@ nav a img:hover {
     color: white;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1180px) {
     .full, .half { width: 80%; }
 }
 
