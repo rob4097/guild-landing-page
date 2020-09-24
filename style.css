@@ -47,7 +47,7 @@ nav a img:hover {
 
 /* Apply now button */
 .button {
-    background-color: #487DC3;
+    background-color: #00adb5;
     border: 0;
     border-radius: 15px;
     padding-top: 15px;
@@ -60,7 +60,7 @@ nav a img:hover {
 }
 
 .button:active {
-    background-color: #487DC3;
+    background-color: #00adb5;
 }
 
 .button:hover {
