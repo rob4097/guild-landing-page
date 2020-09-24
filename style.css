@@ -59,12 +59,12 @@ nav a img:hover {
     text-align: center;
 }
 
-.button:active {
-    background-color: #00adb5;
+.button:hover {
+    background-color: #00858b;
 }
 
-.button:hover {
-    background-color: #25539B;
+.button:active {
+    background-color: #00adb5;
 }
 
 /* Boxen and layout */
