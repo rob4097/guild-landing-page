@@ -1,0 +1,3 @@
+## Social Team
+
+We also welcome casual members and players focused on Mythic Dungeons and Keystone Master. We're seeking players who are looking to push keys as far as possible in a steady environment. We would also like to provide a place to allow others who would otherwise shy away from dungeons, aiding them in learning routes, bosses and dangerous mob mechanics, etc in a stress-free environment. Casual / social players are also welcomed if seeking a place to call home.

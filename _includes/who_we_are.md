@@ -1,0 +1,5 @@
+## Who we are
+
+Whisper provides a non-toxic, stress free, non-judgmental gaming environment for our fellow WoW players in order to help one another improve our skills, kill bosses, and get loot while having fun. We are a newly formed guild of established Mythic raiders, currently working to build our brand of dungeons, raiding, and social events on the Wyrmrest Accord server and are looking for new, old, and returning players for Shadowlands.
+
+Our top priority is to create an incredible guild environment for all members, in both casual and serious progression. We pride ourselves in creating a safe place for everyone to play the game regardless of gender, sexual orientation, etc. Our raid team is a mixture of excellent players working towards Mythic progression without compromising our core values. Our guild community and friendly, supportive raid atmosphere are very valuable to us, and it’s important that you share them to ensure a good fit.
