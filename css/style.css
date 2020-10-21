@@ -104,8 +104,11 @@ h2 { color: #EBE8C2;
 /* CATEGORIZE ME */
 h1, h2, i { width: 100%; text-align: center; }
 
-.centered-text {
+.text-centered {
     text-align: center;
+}
+.text-right {
+    text-align: right;
 }
 
 p, li {

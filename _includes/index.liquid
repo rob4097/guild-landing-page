@@ -1,7 +1,8 @@
 <html>
     <head>
         <title>Whisper</title>
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/calendar.css"/>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Open+Sans&display=swap" rel="stylesheet">
     </head>
@@ -33,7 +34,13 @@
             <div class="box half">
                 {% markdown '/_includes/social_team.md' %}
 
-                <p class="centered-text">To apply, find us via the in-game guild finder!</p>
+                <p class="text-centered">To apply, find us via the in-game guild finder!</p>
+            </div>
+        </div>
+
+        <div class="sidebyside">
+            <div class="box full">
+                {% include calendar %}
             </div>
         </div>
     </body>
