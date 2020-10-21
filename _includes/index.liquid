@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Whisper</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/calendar.css"/>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            {% include logo %}
+            <h1>Whisper</h1>
+            <div class="centered-wrapper">
+            <nav>
+                <a href="https://raider.io/guilds/us/wyrmrest-accord/Whisper"><img src="imgs/raiderio.png"/></a>
+                <a href="https://www.warcraftlogs.com/guild/id/562368"><img src="imgs/warcraftlogs.png"/></a>
+                <a href="https://wowaudit.com/us/wyrmrest-accord/whisper"><img src="imgs/wowaudit.png"/></a>
+                <a href="https://www.wowprogress.com/guild/us/wyrmrest-accord/Whisper"><img src="imgs/wowprogress.png"/></a>
+            </nav>
+            </div>
+        </header>
+
+        <div class="sidebyside">
+        <div class="box full">
+            {% markdown '/_includes/who_we_are.md' %}
+        </div>
+        </div>
+        <div class="sidebyside">
+            <div class="box half">
+                {% markdown '/_includes/mythic_team.md' %}
+
+                <a class="button" href="https://apply.wowaudit.com/us/wyrmrest-accord/whisper/mythic">Apply for the Mythic Team</a>
+            </div>
+
+            <div class="box half">
+                {% markdown '/_includes/social_team.md' %}
+
+                <p class="text-centered">To apply, find us via the in-game guild finder!</p>
+            </div>
+        </div>
+
+        <div class="sidebyside">
+            <div class="box full">
+                {% include calendar %}
+            </div>
+        </div>
+    </body>
+</html>

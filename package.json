@@ -1,0 +1,26 @@
+{
+  "name": "guild-landing-page",
+  "version": "1.0.0",
+  "description": "A landing page for a WoW guild",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve ",
+    "debug": "set DEBUG=Eleventy* & eleventy --serve ",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icbat/guild-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icbat/guild-landing-page/issues"
+  },
+  "homepage": "https://github.com/icbat/guild-landing-page#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "eleventy-plugin-markdown-shortcode": "^1.1.0"
+  }
+}

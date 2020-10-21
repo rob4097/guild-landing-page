@@ -47,7 +47,7 @@ nav a img:hover {
 
 /* Apply now button */
 .button {
-    background-color: #487DC3;
+    background-color: #00adb5;
     border: 0;
     border-radius: 15px;
     padding-top: 15px;
@@ -59,12 +59,12 @@ nav a img:hover {
     text-align: center;
 }
 
-.button:active {
-    background-color: #487DC3;
+.button:hover {
+    background-color: #00858b;
 }
 
-.button:hover {
-    background-color: #25539B;
+.button:active {
+    background-color: #00adb5;
 }
 
 /* Boxen and layout */
@@ -104,8 +104,11 @@ h2 { color: #EBE8C2;
 /* CATEGORIZE ME */
 h1, h2, i { width: 100%; text-align: center; }
 
-.centered-text {
+.text-centered {
     text-align: center;
+}
+.text-right {
+    text-align: right;
 }
 
 p, li {
