@@ -1,0 +1,17 @@
+.ranking {
+    background-color: #393E46;
+    margin: 20px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.ranking a {
+    text-decoration: none;
+}
+
+.ranking a {font-weight: 800 }
+.ranking, .ranking a { color: #ffffff}
+.ranking a.uncommon { color: #1EFF00}
+.ranking a.rare { color: #0070FF}
+.ranking a.epic { color: #a335ee}
+.ranking a.legendary { color: #ff8000}
