@@ -1,6 +1,4 @@
 {
-    "score": 45000,
-    "world_rank": 16844,
-    "area_rank": 7341,
-    "realm_rank": 102
+    "this is testing data": "the real data is pulled in and updated at build time from the GitHub Actions flows",
+    "realm_rank": 12
 }
