@@ -1,5 +1,7 @@
 name: Build and Deploy the page
 on:
+  schedule:
+    - cron: '0 */6 * * *'
   push:
     branches: [ main ]
 
@@ -10,6 +12,19 @@ jobs:
       - uses: actions/checkout@master
       - name: Install Plugins
         run: npm install
+      - name: Get ranking from WoW Progress
+        id: fetch-ranking
+        uses: senmu/download-json-property-action@v1.0.0
+        with:
+          url: 'https://www.wowprogress.com/guild/us/wyrmrest-accord/Whisper/json_rank'
+          property_path: realm_rank
+      - name: Overwrite wowprogress.json with real values
+        id: create-json
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          dir: '_data'
+          name: "wowprogress.json"
+          json: '{ "realm_rank": ${{steps.fetch-ranking.outputs.value}} }'
       - name: Build
         uses: TartanLlama/actions-eleventy@v1.1
       - name: Deploy
