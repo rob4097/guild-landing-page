@@ -13,4 +13,12 @@ jobs:
           url: 'https://www.wowprogress.com/guild/us/wyrmrest-accord/Whisper/json_rank'
           property_path: realm_rank
       - run: echo ${{steps.fetch-ranking.outputs.value}}
+      - name: create-json
+        id: create-json
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          dir: '_data'
+          name: "wowprogress.json"
+          json: '{ "realm_rank": ${{steps.fetch-ranking.outputs.value}} }'
+      -run: cat _data/wowprogress.json
 
