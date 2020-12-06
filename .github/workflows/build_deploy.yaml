@@ -1,5 +1,7 @@
 name: Build and Deploy the page
-on: [push]
+  push:
+    branches: [ main ]
+
 
 jobs:
   build_deploy:
