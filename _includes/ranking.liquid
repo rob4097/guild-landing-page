@@ -1,0 +1,16 @@
+{% if wowprogress.realm_rank <= 100 %}
+    {% assign textclass = "uncommon" %}
+{% endif %}
+{% if wowprogress.realm_rank <= 50 %}
+    {% assign textclass = "rare" %}
+{% endif %}
+{% if wowprogress.realm_rank <= 10 %}
+    {% assign textclass = "epic" %}
+{% endif %}
+{% if wowprogress.realm_rank <= 5 %}
+    {% assign textclass = "legendary" %}
+{% endif %}
+
+<div class="ranking">
+    <a href="{{links.wowprogress}}" class="{{textclass}}">{{wowprogress.realm_rank}}</a> on Wyrmrest Accord US
+</div>
