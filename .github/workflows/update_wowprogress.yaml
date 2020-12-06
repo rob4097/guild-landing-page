@@ -9,6 +9,7 @@ jobs:
       - name: Get ranking from WoW Progress
         id: fetch-ranking
         uses: senmu/download-json-property-action@v1.0.0
+        with:
           url: 'https://www.wowprogress.com/guild/us/wyrmrest-accord/Whisper/json_rank'
           property_path: realm_rank
       - run: echo ${{steps.fetch-ranking.outputs.value}}
