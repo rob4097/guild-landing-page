@@ -1,8 +1,8 @@
-## Mythic Raid Team
+## Progression Raid Team
 
-Our Mythic team raids Thursday and Friday at 5PM server (Pacific)
+Our progression team raids Thursday and Friday at 5PM server (Pacific)
 
-For our Mythic raid team, we expect you to:
+For our progression raid team, we expect you to:
                 
 - Excel at understanding boss mechanics
 - Perform your role while avoiding lethal raid mechanics.
