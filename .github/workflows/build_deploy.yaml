@@ -29,7 +29,7 @@ jobs:
           name: "wowprogress.json"
           json: '{ "realm_rank": ${{steps.fetch-ranking.outputs.value}} }'
       - name: Build
-        uses: TartanLlama/actions-eleventy@v1.1
+        uses: TartanLlama/actions-eleventy@v1.3
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

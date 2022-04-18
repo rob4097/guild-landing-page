@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            {% include logo %}
+            {% include 'logo' %}
             <h1>Whisper</h1>
             <div class="centered-wrapper">
             <nav>
@@ -19,7 +19,7 @@
                 <a href="{{links.wowaudit}}"><img src="imgs/wowaudit.png"/></a>
                 <a href="{{links.wowprogress}}"><img src="imgs/wowprogress.png"/></a>
             </nav>
-            {% include ranking %}
+            {% include 'ranking' %}
             </div>
             <div class="centered-wrapper">
             </div>
@@ -46,7 +46,7 @@
 
         <div class="sidebyside">
             <div class="box full">
-                {% include calendar %}
+                {% include 'calendar' %}
             </div>
         </div>
     </body>
